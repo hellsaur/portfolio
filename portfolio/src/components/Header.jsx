@@ -1,19 +1,29 @@
-import React from 'react'
+import React from 'react';
+import Design from './Design';
+import Web from './Web';
+import Home from './Home'
+import { NavLink } from 'react-router-dom'
 
 
 
-function Header(props){
+function Header(){
 
   return(
     <nav className="cd-stretchy-nav">
-      <a class="cd-nav-trigger" href="#0">Menu<span aria-hidden="true"></span></a>
+      <a className="cd-nav-trigger" href="#0">Menu<span aria-hidden="true"></span></a>
       <ul>
-        <li><a href="#design">Designs</a>
+        <li>
+          <NavLink exact to="/">Designs</NavLink>
         </li>
-        <li><a href="#web">Web Dev</a>
+        <li>
+          <NavLink exact to="/design">Designs</NavLink>
         </li>
-        <li><a href="#resume">Resume</a>
+        <li>
+        <NavLink exact to="/web">Designs</NavLink>
         </li>
+        <li>
+        <NavLink exact to="/about">Designs</NavLink>
+          </li>
       </ul>
       <span aria-hidden="true" className="stretchy-nav-bg"></span>
     </nav>
