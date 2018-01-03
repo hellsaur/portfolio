@@ -8,11 +8,36 @@ h1{
   font-family: 'Pacifico', cursive;
 }
 
-h3{
-  font-size: 50px;
+
+#title{
   text-align: center;
+  font-size: 3em;
+  color:white;
+  margin-top:15%;
   font-family: 'Amatic SC', cursive;
-  margin-top: 20%;
+}
+
+#name{
+margin:5% 20%;
+}
+.intro {
+  font-size: 35px;
+  text-align: left;
+  color:white;
+  font-family: 'Amatic SC', cursive;
+  margin: 10% 10% 0;
+  animation-name: fadeInLeft line;
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 /* --------------------------------
@@ -68,7 +93,7 @@ Stretchy Nav style - common to:
   width: 60px;
   height: 60px;
   border-radius: 30px;
-  background: #9acd91;
+  background: #8909f1;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
   -webkit-transition: height 0.2s, box-shadow 0.2s;
   -moz-transition: height 0.2s, box-shadow 0.2s;
@@ -362,7 +387,7 @@ add-content navigation style
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #8ac57f;
+  background-color: #8909f1;
   -webkit-transition: width 0.2s, box-shadow 0.2s;
   -moz-transition: width 0.2s, box-shadow 0.2s;
   transition: width 0.2s, box-shadow 0.2s;
@@ -380,7 +405,7 @@ add-content navigation style
   -ms-transform: translateX(-50%);
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  background-color: #9acd91;
+  background-color: #8909f1;
 }
 .cd-stretchy-nav.add-content .cd-nav-trigger span {
   background-color: transparent;
@@ -842,8 +867,10 @@ keyframes
 
 body{
 
-  background: url("./images/logo.png") fixed center;
+  background: url("https://media.giphy.com/media/BHNfhgU63qrks/giphy.gif") fixed;
+  background-size: cover;
   background-repeat: no-repeat;
+
   z-index: -99;
 }
 
@@ -851,6 +878,7 @@ body{
 .App{
   display:flex;
   flex-direction: column;
+  overflow: hidden;
   
 }
 #image{
@@ -858,32 +886,44 @@ body{
 }
 
 .project1{
-background-color:#9acd91;
+background-color:rgba(255,255,255,0.5);
+
 
 }
 .project2{
-  background-color:#9acd91;
+  background-color:rgba(255,255,255,0.5);
   
   }
   .project3{
-    background-color:#9acd91;
+    background-color:rgba(255,255,255,0.5)
     
     }
 .project1, .project2, .project3{
   display: flex;
   flex-direction: row;
   justify-content: center;
-  margin: 1.7em 0;
+  margin:1em 20em;
+  /* color: white; */
+  border-radius: 1em;
   font-size: 20px;
   text-align: center;
   font-family: 'Amatic SC', cursive;
   font-weight: bold;
 
 }
+
+.myWeb, .myDesign, h1{
+  color:white;
+}
+
 p{
   margin:1.5em 0;
 }
+span{
+  color:rgb(54, 6, 109);
+}
 
-h3{
-  text-shadow: 2px 1px rgb(255,255,255);
+#nav-text{
+color:rgb(255, 255, 255);
+text-shadow: 2px 2px  rgb(2, 2, 2);
 }

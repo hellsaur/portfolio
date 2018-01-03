@@ -1,7 +1,4 @@
 import React from 'react';
-import Design from './Design';
-import Web from './Web';
-import Home from './Home'
 import { NavLink } from 'react-router-dom'
 
 
@@ -13,17 +10,17 @@ function Header(){
       <a className="cd-nav-trigger" href="#0">Menu<span aria-hidden="true"></span></a>
       <ul>
         <li>
-          <NavLink exact to="/">Designs</NavLink>
+          <NavLink id="nav-text" exact to="/">Home</NavLink>
         </li>
         <li>
-          <NavLink exact to="/design">Designs</NavLink>
+          <NavLink id="nav-text" exact to="/design">Designs</NavLink>
         </li>
         <li>
-        <NavLink exact to="/web">Designs</NavLink>
+        <NavLink id="nav-text" exact to="/web">Development</NavLink>
         </li>
-        <li>
-        <NavLink exact to="/about">Designs</NavLink>
-          </li>
+        {/* <li>
+        <NavLink id="nav-text" exact to="/about">About</NavLink>
+          </li> */}
       </ul>
       <span aria-hidden="true" className="stretchy-nav-bg"></span>
     </nav>
