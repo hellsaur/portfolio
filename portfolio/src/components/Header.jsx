@@ -16,11 +16,11 @@ function Header(){
           <NavLink id="nav-text" exact to="/design">Designs</NavLink>
         </li>
         <li>
-        <NavLink id="nav-text" exact to="/web">Development</NavLink>
+        <NavLink id="nav-text" exact to="/web">WebDev</NavLink>
         </li>
-        {/* <li>
+        <li>
         <NavLink id="nav-text" exact to="/about">About</NavLink>
-          </li> */}
+          </li>
       </ul>
       <span aria-hidden="true" className="stretchy-nav-bg"></span>
     </nav>
