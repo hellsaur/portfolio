@@ -401,8 +401,13 @@ h1{
   font-family: 'Amatic SC', cursive;
 }
 
-#name{
-margin:5% 20%;
+.name{
+background-image: url(https://i.imgur.com/2cMHkLb.png);
+background-size:cover;
+width:800px;
+height:300px;
+margin: 0 22%;
+
 }
 .intro {
   font-size: 35px;
@@ -418,13 +423,15 @@ margin:5% 20%;
 
 .project1{
 background-color:rgba(255,255,255,0.5);
+}
 
-
+p{
+  width:400px;
 }
 .project2{
   background-color:rgba(255,255,255,0.5);
-  
   }
+
   .project3{
     background-color:rgba(255,255,255,0.5)
     
@@ -432,16 +439,14 @@ background-color:rgba(255,255,255,0.5);
 .project1, .project2, .project3{
   display: flex;
   flex-direction: row;
-  text-align: justify;
-  text-justify: inter-word;
   border:1px solid white;
-  margin:1em 10em;
+  margin:1em 10%;
   border-radius: 1em;
   font-size: 15px;
   text-align: center;
   font-family: 'Futura', sans-serif;
-  font-weight: bold;
   padding:0 2em 0 0;
+  text-align: justify;
 
 }
 
@@ -451,6 +456,8 @@ background-color:rgba(255,255,255,0.5);
 
 span{
   color:rgb(54, 6, 109);
+  font-size:20px;
+
 }
 
 #nav-text{
@@ -484,7 +491,7 @@ span:hover{
 
 
  .myDesign{
-  margin-top:10%;
+  margin-top:20%;
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -492,14 +499,21 @@ span:hover{
 } 
 
 
+
 .design1, .design2, .design3, .design4,.design5,.design6,.design7,.design8,.design9,.design10,.design11,.design12{
  
   background-size: cover;
-  height:250px;
-  width:250px;
+  height:300px;
+  width:300px;
   margin: 1em;
   border: 2px solid white;
   border-radius: 20px;
+}
+
+#design-page-text{
+  position: absolute;
+  top:5%;
+  left:45%;
 }
 
 .design1{
@@ -549,4 +563,52 @@ span:hover{
 }
 .design16{
   background-image: url(https://i.imgur.com/Zbrq5gK.jpg);
+}
+
+
+
+
+/*============ mobile ========= */
+
+@media screen and (max-width: 700px) {
+
+    .name{
+      background-image: url(https://i.imgur.com/2cMHkLb.png);
+      background-size:cover;
+      width:250px;
+      height:100px;
+      
+      margin: 10% 18%;
+      
+    }
+    .intro {
+      font-size: 25px;
+      text-align: left;
+      color:white;
+      font-family: 'Amatic SC', cursive;
+      margin: 18% 10% 0;
+    }
+
+    .project1, .project2, .project3{
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      margin:2em;
+      padding: 1em;
+      background-color:rgba(255,255,255,0.5);
+      border:1px solid white;
+      border-radius: 1em;
+      font-size: 12px;
+      text-align:justify;
+      font-family: 'Futura', sans-serif; 
+    }
+    p{
+      width:300px;
+    }
+    #image{
+      background-image: url(https://i.imgur.com/ZHfKLDx.png);
+     
+
+    }
+
 }

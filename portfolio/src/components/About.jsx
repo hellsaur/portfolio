@@ -5,8 +5,8 @@ function About(){
     
   return(
     <div className= "about me info">
-    <h3>Hey! my name is Marco and im a Graphic Designer merged with Web Development.<br />
-    I am a 'must look first' guy who loves code, design and play tons of video games.</h3>
+    <h2>Hey! my name is Marco and im a Graphic Designer merged with Web Development.<br />
+    I am a 'must look first' guy who loves code, design and play tons of video games.</h2>
 
     <h2>Programing Languages:</h2>
       <p><span>HTML5/CSS3</span> | <span>Javascript</span> | <span>Ruby on Rails</span> | <span>Git</span> | 
