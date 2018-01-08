@@ -3,8 +3,9 @@ import React from 'react';
 function Web(){
   
   return(
+    <div className="envelope">
+    <h1>Web Development projects</h1>
     <div className="myWeb">
-
 
     <div className="project1">
           
@@ -32,6 +33,7 @@ function Web(){
           <span>REACT / Express</span> </p>
     </div>
 
+    </div>
     </div>
   )
 }

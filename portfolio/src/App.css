@@ -452,6 +452,16 @@ p{
 
 .myWeb, .myDesign, h1{
   color:white;
+  font-family: 'Amatic SC', cursive;
+}
+
+.myWeb{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  
+  
 }
 
 span{
@@ -488,15 +498,21 @@ span:hover{
 
 /* --------- design ------------ */
 
-
+.myWeb{
+  margin-top:10%;
+}
 
  .myDesign{
-  margin-top:20%;
+  margin-top:10%;
   display: flex;
   justify-content: center;
   flex-direction: row;
   flex-wrap:wrap;
 } 
+
+.envelope{
+  margin-top:10%;
+}
 
 
 
@@ -510,11 +526,6 @@ span:hover{
   border-radius: 20px;
 }
 
-#design-page-text{
-  position: absolute;
-  top:5%;
-  left:45%;
-}
 
 .design1{
   background-image: url(https://i.imgur.com/EjxCHcl.jpg);
@@ -588,6 +599,11 @@ span:hover{
       font-family: 'Amatic SC', cursive;
       margin: 18% 10% 0;
     }
+
+    .myDesign{
+      margin-top:40%;
+    }
+
 
     .project1, .project2, .project3{
       display:flex;

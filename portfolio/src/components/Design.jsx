@@ -3,9 +3,10 @@ import React from 'react';
 function Design(){
   
   return(
-  
+    <div className="envelope">
+    <h1>Designs</h1>
     <div className="myDesign">
-     <h1 id="design-page-text">Designs</h1>
+
      <a href="https://i.imgur.com/EjxCHcl.jpg"><div className="design1"></div></a>
      <a href="https://i.imgur.com/J7jUfNu.jpg"><div className="design2"></div></a>
      <a href="https://i.imgur.com/gPYzcpZ.jpg"><div className="design3"></div></a>
@@ -23,6 +24,7 @@ function Design(){
      <a href="https://i.imgur.com/Hj6yTZ1.jpg"><div className="design15"></div></a>
      <a href="https://i.imgur.com/Zbrq5gK.jpg"><div className="design16"></div></a>
 
+    </div>
     </div>
   )
 }
